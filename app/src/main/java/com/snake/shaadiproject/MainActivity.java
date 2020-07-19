@@ -93,6 +93,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 swipeStack.swipeTopViewToRight();
+                Toast.makeText(MainActivity.this, "Accept", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -101,6 +102,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 swipeStack.swipeTopViewToLeft();
+                Toast.makeText(MainActivity.this, "Decline", Toast.LENGTH_SHORT).show();
             }
         });
 
